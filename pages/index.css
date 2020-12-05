@@ -1,6 +1,8 @@
 @import url("./../vendor/normalize.css");
 
 @import url("./../blocks/page/page.css");
+@import url("./../blocks/data/_text-weight/data_text-weight_bold.css");
+@import url("./../blocks/data/_text-weight/data_text-weight_normal.css");
 
 @import url("./../blocks/header/header.css");
 @import url("./../blocks/header/__logo/header__logo.css");
@@ -18,8 +20,6 @@
 @import url("./../blocks/intro/__title/intro__title.css");
 @import url("./../blocks/intro/__text/intro__text.css");
 @import url("./../blocks/intro/__list/intro__list.css");
-@import url("./../blocks/intro/__list/_normal/intro__list_normal.css");
-@import url("./../blocks/intro/__list/_bold/intro__list_bold.css");
 
 @import url("./../blocks/grid-photo/grid-photo.css");
 @import url("./../blocks/grid-photo/__image/grid-photo__image.css");
