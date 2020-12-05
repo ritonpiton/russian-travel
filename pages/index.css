@@ -1,8 +1,9 @@
 @import url("./../vendor/normalize.css");
 
 @import url("./../blocks/page/page.css");
-@import url("./../blocks/data/_text-weight/data_text-weight_bold.css");
-@import url("./../blocks/data/_text-weight/data_text-weight_normal.css");
+
+@import url("./../blocks/list/list.css");
+@import url("./../blocks/list/__digits/list__digits.css");
 
 @import url("./../blocks/header/header.css");
 @import url("./../blocks/header/__logo/header__logo.css");
