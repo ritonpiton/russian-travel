@@ -2,13 +2,14 @@
     background-image: url("../../../images/__image.svg");
     background-size: cover;
     margin: 0 auto;
-    width: 100vw;
+    max-width: 1280px;
     height: 62.5vw;
 }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
     .lead__image {
         max-width: 928px;
+        max-height: 580px;
     }
 }
 

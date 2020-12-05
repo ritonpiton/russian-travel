@@ -2,13 +2,16 @@
     margin: 0;
     font-style: normal;
     font-weight: normal;
+    text-align: right;
 }
 
 @media all and (max-width: 767px) {
     .footer__copyright {
+        max-width: 288px;
         font-size: 14px;
         line-height: 14px;
-        margin-left: calc(50% - 288px/2); 
+        margin-left: 16px;
+        text-align: left;
     }
 }
 
@@ -17,7 +20,7 @@
         font-size: 14px;
         line-height: 16px;
         margin-left: auto;
-        margin-right: calc(50% - 720px/2);
+        margin-right: 24px;
     }
 }
 
@@ -26,7 +29,7 @@
         font-size: 14px;
         line-height: 16px;
         margin-left: auto;
-        margin-right: calc(50% - 928px/2);
+        margin-right: 48px;
     }
 }
 
@@ -35,6 +38,6 @@
         font-size: 14px;
         line-height: 16px;
         margin-left: auto;
-        margin-right: calc(50% - 1184px/2);
+        margin-right: 48px;
     }
 }

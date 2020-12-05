@@ -1,8 +1,6 @@
 .lead {
     margin: 0 auto;
-    width: 100vw;
     min-width: 320px;
-    max-width: 1280px;
     box-sizing: border-box;
 }
 
@@ -20,6 +18,7 @@
 
 @media all and (min-width: 1024px) {
     .lead {
+        max-width: 928px;
         margin-bottom: 92px;
     }
 }

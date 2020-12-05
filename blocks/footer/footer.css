@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: start;
     margin: auto;
-    width: 100vw;
     max-width: 1280px;
     padding-bottom: 24px;
     box-sizing: border-box;
@@ -16,7 +15,7 @@
     }
 }
 
-@media all and (min-width: 768px){
+@media all and (min-width: 768px) {
     .footer {
         padding-top: 92px;
         flex-direction: row;

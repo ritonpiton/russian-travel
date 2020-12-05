@@ -1,5 +1,5 @@
 .place__website {
-    grid: url;
+    grid-area: url;
     align-items: flex-end;
     position: relative;
 }
