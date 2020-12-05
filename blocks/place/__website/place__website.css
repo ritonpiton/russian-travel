@@ -1,0 +1,11 @@
+.place__website {
+    grid: url;
+    align-items: flex-end;
+    position: relative;
+}
+
+@media all and (max-width: 767px) {
+    .place__website {
+        display: none;
+    }
+}

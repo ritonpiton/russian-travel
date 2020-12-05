@@ -1,0 +1,28 @@
+.grid-photo__image {
+    margin: auto;
+    object-fit: cover;
+}
+
+@media all and (max-width: 767px){
+    .grid-photo__image {
+        min-width: 288px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .grid-photo__image {
+        min-width: 352px;
+    }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+    .grid-photo__image {
+        min-width: 300px;
+    }
+}
+
+@media all and (min-width: 1280px){
+    .grid-photo__image {
+        min-width: 284px;
+    }
+}
