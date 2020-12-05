@@ -1,5 +1,6 @@
 .lead__caption { 
     width: 100%;
+    max-width: 160px;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
@@ -12,6 +13,7 @@
 
 @media all and (max-width: 767px) {
     .lead__caption {
+        
         margin-left: 16px;
     }
 }
@@ -21,3 +23,15 @@
         margin-left: 24px;
     }
 }
+
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+    .lead__caption {
+        margin-left: calc(50% - (928px / 2));
+    }
+}
+
+@media all and (min-width: 1280px) {
+    .lead__caption {
+        margin-left: calc(50% - (984px / 2));
+    }
+}   

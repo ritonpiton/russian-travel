@@ -1,21 +1,15 @@
 .header__logo {
-    display: flex;
-    object-fit: cover;
-    justify-content: center;
-    align-items: flex-start;
+    background-image: url("../../../images/__logo.svg");
+    background-size: cover;
+    background-position: center;
+    width: 142px;
+    height: 42px;
 }
 
-/* для всех экранов меньше 320 */
-@media all and (max-width: 767px) {
-    .header__logo {
-        max-height: 42px;
-        max-width: 142px;
-    }
-}
 
 @media all and (min-width: 768px) {
     .header__logo {
-        max-height: 52px;
-        max-width: 176px;
+        height: 52px;
+        width: 176px;
     }
 }
