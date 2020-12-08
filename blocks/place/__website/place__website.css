@@ -1,7 +1,8 @@
 .place__website {
     grid-area: url;
-    align-items: flex-end;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 @media all and (max-width: 767px) {

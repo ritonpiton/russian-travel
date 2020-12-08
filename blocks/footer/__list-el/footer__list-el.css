@@ -1,0 +1,12 @@
+.footer__list-el {
+    margin-right: 18px;
+}
+
+@media all and (max-width: 767px) {
+    .footer__list-el {
+        margin-bottom: 32px;
+    }
+    .footer__list-el:last-of-type {
+        margin-bottom: 0;
+    }
+}

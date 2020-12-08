@@ -6,19 +6,19 @@
 
 @media all and (max-width: 767px) {
     .lead {
-        margin-bottom: 64px;
+        margin-bottom: 86px;
     }
 }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
     .lead {
-        margin-bottom: 88px;
+        margin-bottom: 110px;
     }
 }
 
 @media all and (min-width: 1024px) {
     .lead {
         max-width: 928px;
-        margin-bottom: 92px;
+        margin-bottom: 114px;
     }
 }

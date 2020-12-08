@@ -31,7 +31,7 @@
     }
 }
 
-@media all and (min-width: 1024px) and (max-width: 1279px) {
+@media all and (min-width: 1024px) {
     .place {
         grid-template-columns: repeat(2, minmax(min-content, max-content));
         grid-template-areas: 
@@ -48,15 +48,6 @@
 
 @media all and (min-width: 1280px) {
     .place {
-        grid-template-columns: repeat(2, minmax(min-content, max-content));
-        grid-template-areas: 
-        "title url"
-        "image paragraph";
-        margin: 0;
-        margin-bottom: 80px;
         gap: 48px 40px;
-    }
-    .place:last-of-type {
-        margin-bottom: 92px;
     }
 }

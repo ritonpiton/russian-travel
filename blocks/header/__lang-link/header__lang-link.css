@@ -8,7 +8,10 @@
 
 .header__lang-link:first-of-type {
     margin-right: 18px;
-    border-bottom: 1px white solid;
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
 }
 
 /* для всех меньше 320 */

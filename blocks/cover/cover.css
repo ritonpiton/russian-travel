@@ -2,7 +2,7 @@
     background: url("../../images/__background.jpg");
     background-size: cover;
     background-position: center;
-    height: 62.5vw;
+    min-height: 62.5vw;
     max-width: 1280px;
     box-sizing: border-box;
     position: relative;
@@ -25,8 +25,8 @@
 
 @media all and (min-width: 1280px) {
     .cover {
-        width: 1184px;
-        height: 740px;
+        max-width: 1184px;
+        min-height: 740px;
         margin: 0 48px;
     }
     

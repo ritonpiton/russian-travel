@@ -5,8 +5,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    
-    margin-right: 18px;
 }
 
 .footer__link:hover {
@@ -18,28 +16,5 @@
         font-size: 24px;
         line-height: 24px;
         max-width: 288px;
-        margin-left: 16px;
-        margin-bottom: 32px; 
-    }
-    .footer__link:last-of-type {
-        margin-bottom: 48px;
-    }
-}
-
-@media all and (min-width: 768px) and (max-width: 1023px) {
-    .footer__link:first-of-type {
-        margin-left: 24px;
-    }
-}
-
-@media all and (min-width: 1024px) and (max-width: 1279px) {
-    .footer__link:first-of-type {
-        margin-left: 24px;
-    }
-}
-
-@media all and (min-width: 1280px) {
-    .footer__link:first-of-type {
-        margin-left: 48px;
     }
 }

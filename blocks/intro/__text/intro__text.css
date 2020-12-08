@@ -11,19 +11,3 @@
         max-width: 288px;
     }
 }
-
-@media all and (min-width: 768px) and (max-width: 1023px) {
-    .intro__title {
-        font-size: 54px;
-        line-height: 58px;
-        margin-right: calc(100% - 690px - 48px);
-    }
-}
-
-@media all and (min-width: 1024px) {
-    .intro__title {
-        font-size: 54px;
-        line-height: 58px;
-        margin-right: calc(100% - 690px - 48px);
-    }
-}
