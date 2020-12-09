@@ -2,23 +2,30 @@
     margin: 0 auto;
     min-width: 320px;
     box-sizing: border-box;
+    margin-bottom: 92px;
 }
 
 @media all and (max-width: 767px) {
     .lead {
-        margin-bottom: 86px;
+        margin-bottom: 64px;
     }
 }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
     .lead {
-        margin-bottom: 110px;
+        margin-bottom: 88px;
     }
 }
 
 @media all and (min-width: 1024px) {
     .lead {
         max-width: 928px;
-        margin-bottom: 114px;
     }
 }
+
+@media all and (min-width: 1280px) {
+    .lead {
+        max-width: 984px;
+    }
+}
+

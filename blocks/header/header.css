@@ -4,6 +4,8 @@
     align-items: center;
     margin: auto;
     max-width: 1280px;
+    padding: 28px 48px 0 48px;
+
 }
 
 /* <320 */
@@ -23,12 +25,12 @@
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
     .header {
-        padding: 28px 48px 46px 48px;
+        padding-bottom: 46px;
     }
 }
 
 @media all and (min-width: 1280px) {
     .header {
-        padding: 28px 48px 56px 48px;
+        padding-bottom: 56px;
     }
 }

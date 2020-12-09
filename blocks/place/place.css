@@ -3,6 +3,12 @@
     max-width: 1280px;
     display: grid;
     justify-content: center;
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-areas: 
+    "title url"
+    "image paragraph";
+    margin: 0;
+    row-gap: 48px;
 }
 
 @media all and (max-width: 767px){
@@ -12,6 +18,7 @@
         "title"
         "image"
         "paragraph";
+        row-gap: 32px;
         margin-bottom: 49px;
     }
     .place:last-of-type {
@@ -21,25 +28,15 @@
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
     .place {
-        grid-template-columns: repeat(2, minmax(min-content, max-content));
-        grid-template-areas: 
-        "title url"
-        "image paragraph";
-        margin: 0;
         margin-bottom: 73px;
-        gap: 48px 28px;
+        column-gap: 28px;
     }
 }
 
 @media all and (min-width: 1024px) {
     .place {
-        grid-template-columns: repeat(2, minmax(min-content, max-content));
-        grid-template-areas: 
-        "title url"
-        "image paragraph";
-        margin: 0;
         margin-bottom: 80px;
-        gap: 48px 32px;
+        column-gap: 32px;
     }
     .place:last-of-type {
         margin-bottom: 92px;
@@ -48,6 +45,6 @@
 
 @media all and (min-width: 1280px) {
     .place {
-        gap: 48px 40px;
+        column-gap: 40px;
     }
 }

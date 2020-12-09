@@ -2,11 +2,16 @@
     background: url("../../images/__background.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 62.5vw;
     max-width: 1280px;
-    box-sizing: border-box;
     position: relative;
+    box-sizing: border-box;
 }
+
+/* Высоту у блока необходимо удалить. Задавать высоту целому блоку - очень плохая практика.
+Как вариант фоновое изображение, наведение и высоту можно задать для ссылки. Но лучше высоту совсем не задавать, а отрегулировать положение элементов отступами и сеткой */
+
+/* честно, не понимаю, как можно задать положение элементов отступами и сеткой
+   если сейчас проект будет принят, то можно увидеть от вас пример? */
 
 .cover::before {
     content: '';
@@ -23,11 +28,32 @@
     opacity: 0.8;
 }
 
+@media all and (max-width: 767px) {
+    .cover {
+        padding: 33px 16px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .cover {
+        min-width: 768px;
+        padding: 115px 104px;
+        padding: 115px 0;
+    } 
+}
+
+
+@media all and (min-width: 1024px) {
+    .cover {
+        padding: 195px 232px;
+    }
+}
+
 @media all and (min-width: 1280px) {
     .cover {
         max-width: 1184px;
         min-height: 740px;
+        padding: 245px 312px;
         margin: 0 48px;
-    }
-    
+    } 
 }
